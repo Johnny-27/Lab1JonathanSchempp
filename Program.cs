@@ -1,6 +1,7 @@
 ﻿//WorkWithIntegers();
+OrderPrecedence();
 
-void BasicEquations()
+void WorkWithIntegers()
 {
     int a = 18;
     int b = 6;
@@ -20,7 +21,8 @@ void BasicEquations()
     c = a / b;
     Console.WriteLine(c);
 }
-void OrderOfOperations()
+
+void OrderPrecedence()
 {
     int e = 7;
     int f = 4;
