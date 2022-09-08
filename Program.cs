@@ -1,5 +1,7 @@
 ﻿//WorkWithIntegers();
 OrderPrecedence();
+TestLimits();
+DoubleType();
 
 void WorkWithIntegers()
 {
@@ -36,4 +38,22 @@ void OrderPrecedence()
     Console.WriteLine($"The range of the integers is {min} to {max}");
     int what = max + 3;
     Console.WriteLine($"An example of overflow: {what}");
+}
+
+void TestLimits()
+{
+    int max = int.MaxValue;
+    int min = int.MinValue;
+    Console.WriteLine($"The range of the integers is {min} to {max}");
+    int what = max + 3;
+    Console.WriteLine($"An example of overflow: {what}");
+}
+
+void DoubleType()
+{
+    double a = 5;
+    double b = 4;
+    double c = 2;
+    double d = (a + b) / c;
+    Console.WriteLine(d);
 }
