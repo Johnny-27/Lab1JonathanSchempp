@@ -31,4 +31,7 @@ void OrderPrecedence()
     int e = (a + b) % c;
     Console.WriteLine($"quotient: {d}");
     Console.WriteLine($"remainder: {e}");
+    int max = int.MaxValue;
+    int min = int.MinValue;
+    Console.WriteLine($"The range of the integers is {min} to {max}");
 }
